@@ -1,0 +1,251 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #242644;
+            margin-top:200px;
+            margin-left:500px;
+        }
+        .box{
+            display: block;
+            align-items: center;
+        }
+        .insidebox{
+            display: inline-block;
+            width:80px;
+            height:80px;
+            padding: 20px;
+            background-color: rgb(137, 44, 44);
+            box-shadow: 2px 2px 4px;
+            text-align: center;
+            line-height: 0.5;
+            border-radius: 2px;
+        }
+        .insidebox h1{color:#242644;font: weight 500px;font: size 90px;;}
+        .insidebox h5{color:white;}
+
+        .insidebox1{
+            display: inline-block;
+            width:80px;
+            height:80px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 2px 2px 4px;
+            text-align: center;
+            line-height: 0.5;
+            border-radius: 2px;
+        }
+        .insidebox1 h1{color:#242644;font-weight: 900;font: size 90px;;}
+        .insidebox1 h5{color:#242644;}
+
+        .insidebox2{
+            display: inline-block;
+            width:80px;
+            height:80px;
+            padding: 20px;
+            background-color:rgb(44, 92, 170);
+            box-shadow: 2px 2px 4px;
+            text-align: center;
+            line-height: 0.5;
+            border-radius: 2px;
+        }
+        .insidebox2 h1{color:#242644;font-weight: 900;font: size 90px;;}
+        .insidebox2 h5{color:white;}
+
+        .insidebox3{
+            display: inline-block;
+            width:80px;
+            height:80px;
+            padding: 20px;
+            background-color: goldenrod;
+            box-shadow: 2px 2px 4px;
+            text-align: center;
+            line-height: 0.5;
+            border-radius: 2px;
+        }
+        .insidebox3 h1{color:#242644;font-weight: 900;font: size 90px;;}
+        .insidebox3 h5{color:white;}
+
+        h3{color: white;margin-left: 140PX;}
+        .balloons{
+            display: block;
+        }
+        .circle1{
+            background-color:rgb(137, 44, 44) ;
+            border-radius: 50%;
+            width:12px;
+            height:25px;
+            padding:40px;
+            margin-left: 20px;
+            display: inline-block;
+        }
+        .circle2{
+            background-color:white;
+            border-radius: 50%;
+            width:12px;
+            height:25px;
+            padding:40px;
+            margin-left:20px;
+            display: inline-block;
+        }
+        .circle3{
+            background-color:rgb(44, 92, 170);
+            border-radius: 50%;
+            width:12px;
+            height:25px;
+            padding:40px;
+            margin-left:60px;
+            display: inline-block;
+        }
+        .eyes{
+            display: block;
+        }
+        .righteye{
+            width:2px;
+            height:5px;
+            background-color: black;
+            border-radius: 100%;
+            display: inline-block;
+        }
+        .lefteye{
+            width:2px;
+            height:5px;
+            background-color: black;
+            border-radius: 100%;
+            display: inline-block;
+        }
+        .string{
+            display: block;
+        }
+        .string1{
+            display: inline-block;
+            width:5px;
+            height:90px;
+            margin-left: 70px;
+            background-color: rgb(137, 44, 44) ;
+        }
+        .string2{
+            display: inline-block;
+            width:5px;
+            height:90px;
+            margin-left: 90px;
+            background-color:white ;
+        }
+        .string3{
+            display: inline-block;
+            width:5px;
+            height:90px;
+            margin-left: 150px;
+            background-color: rgb(44, 92, 170);
+        }
+        .mouth1 {
+            height:2px;
+            width: 1px;
+            border-radius: 150px 0 0 150px;
+            border-top: 3px solid #000;
+            border-left: 3px solid #000;
+            border-bottom: 2px solid #000;
+            transform: translate(100px) rotate(-90deg);
+            margin-left:18px;
+          }
+          .mouth2{
+            height:2px;
+            width: 1px;
+            border-radius: 150px 0 0 150px;
+            border-top: 3px solid #000;
+            border-left: 3px solid #000;
+            border-bottom: 2px solid #000;
+            transform: translate(100px) rotate(-90deg);
+            margin-left:60px;
+          }
+    </style>
+</head>
+<body>
+    <div class="balloons">
+        
+        <div class="circle1">
+            <div class="eyes">
+                
+                <div class="righteye"></div>
+                <div class="lefteye"></div>
+                <div class="mouth1"></div>
+            </div>
+            
+        </div>
+        <div class="circle2">
+            <div class="eyes">
+                <div class="righteye"></div>
+                <div class="lefteye"></div>
+            </div>
+            <div class="mouth2"></div>
+        </div>
+        <div class="circle3">
+            <div class="eyes">
+                <div class="righteye"></div>
+                <div class="lefteye"></div>
+              
+            </div>
+        </div>
+    </div>
+    <div class="string">
+        <div class="string1"></div>
+        <div class="string2"></div>
+        <div class="string3"></div>
+    </div>
+    <div class="box">
+        <div class="insidebox">
+            <h1 id="day"></h1>
+            <h5>DAYS</h5>
+        </div>
+        <div class="insidebox1">
+            <h1 id="hours"></h1>
+            <h5>HOURS</h5>
+        </div>
+        <div class="insidebox2">
+            <h1 id="minutes"></h1>
+            <h5>MINUTES</h5>
+        </div>
+        <div class="insidebox3">
+            <h1 id="seconds"></h1>
+            <h5>SECONDS</h5>
+        </div>
+    </div>
+    <br>
+    <h3>4TH OF JULY COUNTER</h3>
+
+    <script>
+        var countDownDate = new Date("Jul 4, 2024 23:00:01").getTime();
+    
+        var x = setInterval(function() {
+        
+         
+          var now = new Date().getTime();
+            
+          
+          var distance = countDownDate - now;
+            
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+          document.getElementById("day").innerHTML = days;
+          
+          document.getElementById("hours").innerHTML =  hours;
+          
+          document.getElementById("minutes").innerHTML =minutes;
+          
+          document.getElementById("seconds").innerHTML = seconds;
+             
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script>
+        
+</body>
